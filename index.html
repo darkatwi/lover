@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>For You ❤️</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>For <span id="name">My Love</span> ❤️</h1>
+        <p id="message">Click anywhere to get a surprise 💌</p>
+    </div>
+
+    <!-- Envelope Button -->
+    <button id="envelopeBtn" class="envelope-btn" title="Open your love letter">💌</button>
+
+    <!-- Letter Modal -->
+    <div id="letterModal" class="modal">
+        <div class="letter">
+            <div class="letter-content">
+                <p>
+                    My love, ❤️<br><br>
+
+                    I’m sorry if sometimes I’ve made you sad —<br>
+                    please know it’s never my intention.<br>
+                    You mean the world to me, and the last thing I want<br>
+                    is to cause you any pain or worry.<br><br>
+
+                    Every moment with you is precious,<br>
+                    and all I truly want is to see you happy,<br>
+                    to share laughter and light in your life.<br><br>
+
+                    Thank you for being patient with me,<br>
+                    for loving me even when I’m not perfect.<br>
+                    I promise to always try my best,<br>
+                    to make you smile and feel cherished every day.<br><br>
+
+                    You are my heart’s greatest joy,<br>
+                    and I love you more than words can say.<br><br>
+
+                    Forever yours,<br>
+                    ❤️
+                </p>
+            </div>
+            <button id="closeLetter">Close ✨</button>
+        </div>
+    </div>
+    <!-- Camera Button -->
+    <button id="cameraBtn" class="camera-btn" title="View our photos">📷</button>
+
+    <!-- Gallery Modal -->
+    <div id="galleryModal" class="modal">
+        <div class="gallery-container">
+            <img id="galleryImage" src="" alt="Photo" />
+            <p id="galleryCaption"></p>
+            <div class="gallery-controls">
+                <button id="prevPhoto">← Prev</button>
+                <button id="nextPhoto">Next →</button>
+            </div>
+            <button id="closeGallery">Close ✨</button>
+        </div>
+    </div>
+
+
+    <canvas id="hearts"></canvas>
+    <script src="script.js"></script>
+</body>
+
+</html>
